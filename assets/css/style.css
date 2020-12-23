@@ -1576,6 +1576,10 @@ section {
   border-left: 4px solid #e92a2ac2;
 }
 
+#footer .footer-top .footer-info a {
+color: white;
+}
+
 #footer .footer-top .footer-info p {
   font-size: 14px;
   line-height: 24px;
