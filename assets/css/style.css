@@ -515,6 +515,17 @@ h1, h2, h3, h4, h5, h6 {
   color: #e92a2ac2;
 }
 
+#intro .img-car{
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+  #intro .img-car{
+    width: 80%;
+  }
+}
+
 
 /*--------------------------------------------------------------
 # Sections
@@ -1606,6 +1617,11 @@ color: white;
 #footer .footer-top .social-links a:hover {
   background: #e92a2ac2;
   color: #fff;
+}
+#footer .footer-top img {
+  font-size: 14px;
+  position: relative;
+  padding-bottom: 12px;
 }
 
 #footer .footer-top h4 {
